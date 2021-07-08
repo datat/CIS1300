@@ -6,10 +6,11 @@ html {
   box-sizing: inherit;
 }
 body {
-
 	background: #253978; /* Old browsers */
 	background: -moz-linear-gradient(left, #253978 0%, #253978 45%, #a71622 45%, #a71622 55%, #253978 55%, #253978 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(left, #253978 0%, #253978 45%, #a71622 45%, #a71622 55%, #253978 55%, #253978 100%); /* Chrome10-25,Safari5.1-6 */
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
 	background: linear-gradient(to right, #253978 0%, #253978 45%, #a71622 45%, #a71622 55%, #253978 55%, #253978 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 #content {
