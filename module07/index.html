@@ -32,13 +32,17 @@
 		min-height: calc(100vh - 400px);
 		background-color: blanchedalmond;
 	}
-	aside :first-child {
+	aside:first-child {
 		width: 20%;
 		position: absolute;
+		top: 0px;
+		left: 0px;
 	}
-	aside :last-child {
+	aside:last-child {
 		width: 20%;
 		position: absolute;
+		top: 0px;
+		right: 0px;
 	}
 	footer {
 		width: 100%;
@@ -50,10 +54,10 @@
 <body>
 <header><h1>HEADER</h1></header>
 <div id="content">
-	<aside><p>LEFT</p></aside>
-	<main><p>MAIN</p></main>
-	<aside><p>RIGHT</p></aside>
-	<footer><p>FOOTER</p></footer>
+	<aside>ASIDE</aside>
+	<main>MAIN</main>
+	<aside>ASIDE</aside>
 </div>
+<footer><p>FOOTER</p></footer>
 </body>
 </html>
