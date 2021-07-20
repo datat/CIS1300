@@ -25,7 +25,7 @@ header {
   padding: 1em;
   background-color: green;
 }
-aside {
+aside:first-of-type {
   grid-area: left;
   padding: 1em;
   background-color: grey;
