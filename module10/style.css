@@ -240,9 +240,15 @@ iframe {
       0% {
         background-image:url(image/arrow.png);
       }
-	  20% {
+	  21% {
 		background-image:none;
 	  }
+	  51% {
+        background-image:none;
+      }
+      90% {
+        background-image:none;
+      }
       91% {
         background-image:url(image/arrow.png);
       }
