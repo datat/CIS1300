@@ -243,6 +243,9 @@ iframe {
 	  21% {
 		background-image:none;
 	  }
+	50% {
+		background-image:none;
+	}
 	  51% {
         background-image:none;
       }
