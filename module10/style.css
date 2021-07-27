@@ -243,12 +243,6 @@ iframe {
 	  20% {
 		background-image:none;
 	  }
-	  50% {
-		background-image:none;
-	  }
-	  90% {
-		background-image:none;
-	  }
       91% {
         background-image:url(image/arrow.png);
       }
