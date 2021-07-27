@@ -215,7 +215,20 @@ iframe {
       }
       
     }
-    @keyframes greenlight {
+    @keyframes arrowlight {
+      0% {
+        background-image:url(image/arrow.png);
+      }
+	  20% {
+		background-image:none;
+	  }
+      91% {
+        background-image:url(image/arrow.png);
+      }
+      100% {
+        background-image:url(image/arrow.png);
+      }
+	@keyframes greenlight {
       0% {
         background-color:#333333;
       }
@@ -236,19 +249,7 @@ iframe {
       }
       
     }
-    @keyframes arrowlight {
-      0% {
-        background-image:url(image/arrow.png);
-      }
-	  20% {
-		background-image:none;
-	  }
-      91% {
-        background-image:url(image/arrow.png);
-      }
-      100% {
-        background-image:url(image/arrow.png);
-      }
+
       
     }
 
