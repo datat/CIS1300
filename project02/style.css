@@ -34,7 +34,7 @@ main {
 }
 aside:last-of-type {
 	display:flex;
-	flex-wrap:wrap;  
+	flex-wrap:wrap; 
 	grid-area: right;
   padding: 1em;
 	background-color: wheat;
@@ -49,7 +49,7 @@ img {
 	position: relative;
 	width: 150px;
 	height: 150px;
-	margin: 5px;
+	padding: 5px;
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -59,8 +59,7 @@ img {
 @media screen and (min-width:576px) and (max-width:991px) {
 	body {
 		display: grid;
-		grid-template:  auto auto;
-		grid-template-rows: 20px / auto auto;
+		grid-template:  1fr 1fr;
 		grid-template-areas:
 		"header header"
 		"left right"
@@ -69,12 +68,6 @@ img {
 		
 		min-height: 100vh;
 		max-width: 100%;
-	}
-	header {
-	}
-	aside {
-	}
-	main {
 	}
 } 
 
