@@ -7,7 +7,6 @@ html {
  box-sizing: inherit;
 }
 body {
-	max-width: 576px;
   	display: grid;
 	grid-template-columns: auto;
 	grid-template-rows: 1fr;
@@ -17,6 +16,7 @@ body {
 		"main"
 		"right"
 		"footer";
+	max-width: 576px;
 	min-height: 100vh;
 	background-color: lightgrey;
 	margin: 0;
@@ -71,7 +71,6 @@ img {
 /* check for medium display */
 @media screen and (min-width:576px) and (max-width:991px) {
 	body {
-		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto 1fr;
 		grid-template-areas:
@@ -79,8 +78,6 @@ img {
 		"left right"
 		"main main"
 		"footer footer";
-		
-		min-height: 100vh;
 		max-width: 100%;
 	}
 } 
@@ -88,14 +85,12 @@ img {
 /* check for larger screen sizes */
 @media screen and (min-width:992px) {
 	body {
-		max-width: 100%;
-		display: grid;
 		grid-template-columns: 1fr 2fr 1fr;
 		grid-template-rows: auto 1fr auto;
 		grid-template-areas:
 		"header header header"
 		"left main right"
 		"footer footer footer";
-		min-height: 100vh;
+		max-width: 100%;
 	}
 }
