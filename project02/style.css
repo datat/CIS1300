@@ -22,9 +22,6 @@ body {
 	margin: 0;
 	padding: 0;
 }
-main p {
-	/*visibility: hidden;*/
-}
 
 header {
   grid-area: header;
@@ -42,9 +39,9 @@ main {
   background-color: skyblue;
 }
 aside:last-of-type {
+	grid-area: right;
 	display: flex;
 	flex-wrap: wrap; 
-	grid-area: right;
   	padding: 1em;
 	background-color: wheat;
 	vertical-align: top;
@@ -53,7 +50,6 @@ footer {
 	grid-area: footer;
 	padding: 5px;
 	background-color: lightgreen;
-	max-height: 100px;
 	text-align: center;	
 }
 img {
