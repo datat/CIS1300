@@ -45,7 +45,7 @@ h1 > a {
 	background-color: #ffffff;	
 }
 
-h1.align-left > a {;
+h1.align-left>a {
 	border-radius:999px 0 0 999px;
 }
 h1.align-right > a {

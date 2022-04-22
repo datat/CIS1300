@@ -6,7 +6,7 @@ html {
 *, *:before, *:after {
  box-sizing: inherit;
 }
-body {
+#wrapper {
   	display: grid;
 	grid-template-columns: auto;
 	grid-template-rows: 1fr;
@@ -36,7 +36,7 @@ aside:first-of-type {
 main {
   grid-area: main;
   padding: 1em;
-  background-color: rgb(152, 165, 170);
+  background-color: skyblue;
 }
 aside:last-of-type {
 	grid-area: right;
@@ -66,7 +66,7 @@ img {
 
 /* check for medium display */
 @media screen and (min-width:576px) and (max-width:991px) {
-	body {
+	#wrapper {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto 1fr;
 		grid-template-areas:
@@ -80,7 +80,7 @@ img {
 
 /* check for larger screen sizes */
 @media screen and (min-width:992px) {
-	body {
+	#wrapper {
 		grid-template-columns: 1fr 2fr 1fr;
 		grid-template-rows: auto 1fr auto;
 		grid-template-areas:
